@@ -22,6 +22,7 @@
 - dotnet restore, dotnet build, dotnet test
 - Docker Build & Push para o ACR
 - Artefato publicado para uso no Release
+  
 → Sempre que ocorre **push na branch main**, o CI executa automaticamente..
 
 ## Processo de CD (Release)
@@ -30,6 +31,7 @@
 - Deploy em Azure Web App for Containers (Linux)
 - Consumo da imagem elysia-api do ACR
 - Atualização automática da imagem em produção
+  
 → Após o CI finalizar, o CD pega a imagem recém gerada e **atualiza o ambiente de produção automaticamente**.
 
 ---
