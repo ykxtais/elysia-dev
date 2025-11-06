@@ -13,8 +13,8 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("OracleDB"))
-);
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres")));
+
 
 builder.Services.AddScoped<ITokenService, TokenService>();
 

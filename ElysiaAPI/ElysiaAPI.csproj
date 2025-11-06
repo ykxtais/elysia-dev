@@ -25,6 +25,7 @@
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="9.0.10" />
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="9.0.10" />
 
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.2" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.26000" />
 
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
