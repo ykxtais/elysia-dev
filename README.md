@@ -37,8 +37,9 @@ Este repositório contém a aplicação **Elysia** (.NET) integrada em um pipeli
 ---
 
 ## Testando a API
-⟢ Acesse o Swagger em: ``` link soon ``` </br>
-⟢ azurewebsites endpoints: ``` link soon ```
+⟢ Acesse o Swagger em: ``` https://app-elysia-s4.azurewebsites.net/swagger/index.html ``` </br>
+⟢ azurewebsites: ``` app-elysia-s4.azurewebsites.net ```
+  - endpoints utilizados do projeto: Moto e Vaga
 
 ---
 
