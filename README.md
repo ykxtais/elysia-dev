@@ -1,6 +1,6 @@
 # ⟢ Elysia API – DevOps
 
-=alterar=
+Este repositório contém a aplicação **Elysia** (.NET) integrada em um pipeline de **CI/CD** no **Azure DevOps**, com deploy automatizado em **Azure Web App (Linux/Container)**.
 
 ---
 
